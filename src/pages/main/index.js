@@ -28,7 +28,7 @@ export default class Main extends Component{
                         <article key={product._id}>
                             <strong>{product.title}</strong>
                             <p>{product.description}</p>
-                            <a href="#">Acessar</a>
+                            <a href="https://www.google.com/">Acessar</a>
                         </article>
                     )
                 )}
