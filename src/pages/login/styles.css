@@ -1,0 +1,99 @@
+.login2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000ee;
+    position: relative;
+    padding: 0 20%;
+}
+.logo-login {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.login h3 {
+    font-weight: 900;
+    color: #f8f8f8aa;
+    font-size: 18px;
+}
+.active {
+    color: #ff9900 !important;
+}
+.campo-login:focus {
+    border-bottom: 1px solid #ff9900 !important;
+    box-shadow: 0 1px 0 #ff9900 !important;
+}
+.btn-login {
+    background-color: #ff9900;
+    border: 0;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+.controle a{
+    color: #ff9900;
+}
+.controle a:hover {
+    color: #ff9900;
+    text-decoration: underline;
+}
+.controle span {
+    color: #f8f8f8aa;
+}
+.icones2 {
+    display: flex;
+}
+.icones p {
+    color: #f8f8f8aa;
+}
+.icones2 i{
+    font-size: 20px;
+    transition: .3s;
+    position: absolute;
+    background: #f8f8f8aa;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #00000033 inset;
+}
+.btn-icone {
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .3s;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8aa;
+    box-shadow: 0 10px 13px #f8f8f844;
+}
+.icones i:hover{
+    color: #000000ee;
+}
+.btn-icone:hover {
+    background: #ff9900;
+    box-shadow: 0 0px 13px #ff9900;
+}
+.facebook {
+    color: #400191;
+}
+.google {
+    color: #dd4b39;
+}
+.twitter {
+    color: #00aced;
+}
+.fundo-login {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}

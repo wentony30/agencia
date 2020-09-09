@@ -1,0 +1,35 @@
+.fundo{
+    height: 88vh;
+    background: #000000;
+}
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #f8f8f8;
+    font-size: 37px;
+}
+.p-inicio {
+    color: #f8f8f855;
+    font-size: 14px;
+    letter-spacing: .7px;
+    line-height: 25px;
+}
+.quero-site {
+    color: #f8f8f8;
+    background-color: #ff6a00;
+    padding: 10px 30px;
+    border-radius: 40px;
+    letter-spacing: .7px;
+}
+.quero-site:hover {
+    color: #f8f8f8;
+    box-shadow: 0 0 20px #ff6a00;
+}
+.saiba-mais{
+    color: #f8f8f855;
+    margin-left: 40px;
+}
+.saiba-mais:hover {
+    color: #f8f8f855;
+    text-decoration: underline;
+}

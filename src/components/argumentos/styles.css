@@ -1,0 +1,17 @@
+.titulo-laranja {
+    color: #ff6a00;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.titulo-negrito {
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+}
+.texto-formatado {
+    letter-spacing: .7px;
+    font-size: 14px;
+    width: 400px;
+}
